@@ -9,15 +9,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Blog`,
     author: {
       name: `Rodscaloppe`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `Com mais de sete (7) anos de experiência Em desenvolvimento, validação e análise de qualidade do produto. Esforço-me para construir bons produtos, com a dedicação necessária, 
+      interessado em ter novas experiências, para soluções escaláveis, implementando processos adequados à organização e produção de resultados eficientes.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -102,7 +103,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Blog RSS Feed",
           },
         ],
       },
@@ -110,7 +111,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Blog`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
