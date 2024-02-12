@@ -4,8 +4,15 @@ date: "2024-02-12"
 description: "ligando a etapa de testagem às demais instâncias de sua atuação. Plenamente articulada com a Qualidade"
 ---
 
-O objetivo deste trabalho é definir padrões que, a médio e longo prazos, melhorem o serviço oferecido aos usuários, e que permitam pensar e planejar sua atuação de modo orgânico, ligando a etapa de testagem às demais instâncias de sua atuação. Plenamente articulada com a Qualidade, foi concebida e desenvolvida tendo em mente a necessidade de desenvolver práticas de gestão que garantam a infraestrutura apropriada e a disponibilidade de sistemas essenciais de TI, e foram calcadas em uma análise das reais necessidades de teste, tendo em vista o objetivo da organização e a natureza do software produzido. A partir do momento em que se estabelece o que as atividades de teste devem atingir na organização.
-Trabalhar para definir como os objetivos serão atingidos. Como um texto inicial buscou-se apresentar os conceitos fundamentais de teste de uma forma simples e breve: o objetivo; os procedimentos; o processo; os tipos; os níveis e as técnicas aplicadas à atividade de teste.
+O objetivo deste trabalho é definir padrões que, a médio e longo prazos, melhorem o serviço oferecido aos usuários,
+e que permitam pensar e planejar sua atuação de modo orgânico, ligando a etapa de testagem às demais instâncias de
+sua atuação. Plenamente articulada com a Qualidade, foi concebida e desenvolvida tendo em mente a necessidade de
+desenvolver práticas de gestão que garantam a infraestrutura apropriada e a disponibilidade de sistemas essenciais
+de TI, e foram calcadas em uma análise das reais necessidades de teste, tendo em vista o objetivo da organização
+e a natureza do software produzido. A partir do momento em que se estabelece o que as atividades de teste devem
+atingir na organização. Trabalhar para definir como os objetivos serão atingidos. Como um texto inicial buscou-se
+apresentar os conceitos fundamentais de teste de uma forma simples e breve: o objetivo; os procedimentos;
+o processo; os tipos; os níveis e as técnicas aplicadas à atividade de teste.
 
 ## Visão geral
 
@@ -110,11 +117,24 @@ Um exemplo bem prático desta técnica de teste é o uso da ferramenta livre JUn
 
 #### Caixa Preta
 
-Também chamada de teste orientado a dado ou orientado a entrada e saída, a técnica de caixa-preta avalia o comportamento externo do componente de software, sem se considerar o comportamento interno do mesmo. São usados para demonstrar que as funções dos softwares são operacionais, que a entrada é adequadamente aceita e a saída é corretamente produzida; que a integridade das informações externas é mantida. Dados de entrada são fornecidos, o teste é executado e o resultado obtido é comparado a um resultado esperado previamente conhecido. Como detalhes de implementação não são considerados, os casos de teste são todos derivados da especificação.
+Também chamada de teste orientado a dado ou orientado a entrada e saída, a técnica de caixa-preta avalia o comportamento externo do componente de software, sem se considerar
+o comportamento interno do mesmo. São usados para demonstrar que as funções dos softwares são operacionais, que a entrada é adequadamente aceita e a saída é corretamente produzida;
+que a integridade das informações externas é mantida. Dados de entrada são fornecidos, o teste é executado e o resultado obtido é comparado a um resultado esperado previamente conhecido.
+Como detalhes de implementação não são considerados, os casos de teste são todos derivados da especificação.
 
-Quanto mais entradas são fornecidas, mais rico será o teste. Numa situação ideal todas as entradas possíveis seriam testadas, mas na ampla maioria dos casos isso é impossível. Outro problema é que a especificação pode estar ambígua em relação ao sistema produzido, e como resultado as entradas especificadas podem não ser as mesmas aceitas para o teste. Uma abordagem mais realista para o teste de caixa-preta é escolher um subconjunto de entradas que maximize a riqueza do teste. Pode-se agrupar subconjuntos de entradas possíveis que são processadas similarmente, de forma que testar somente um elemento desse subconjunto serve para averiguar a qualidade de todo o subconjunto.
+Quanto mais entradas são fornecidas, mais rico será o teste. Numa situação ideal todas as entradas possíveis seriam testadas, mas na ampla maioria dos casos isso
+é impossível.
+Outro problema é que a especificação pode estar ambígua em relação ao sistema produzido, e como resultado as entradas especificadas podem não ser as mesmas aceitas para o teste.
+Uma abordagem mais realista para o teste de caixa-preta é escolher um subconjunto de entradas que maximize a riqueza do teste. Pode-se agrupar subconjuntos de entradas possíveis
+que são processadas similarmente, de forma que testar somente um elemento desse subconjunto serve para averiguar a qualidade de todo o subconjunto.
 
-Por exemplo, em um sistema que aceita um inteiro como entrada, testar todos os casos possíveis pode gerar pelo menos dezenas de milhares de casos de testes distintos. Entretanto, a partir da especificação do sistema, pode-se encontrar um subconjunto de inteiros que maximizem a qualidade do teste. Depende do propósito do sistema, mas casos possíveis incluem inteiros pares, inteiros ímpares, zero, inteiros positivos, inteiros negativos, o maior inteiro, o menor inteiro. Essa técnica é aplicável a todas as fases de teste – teste unitário, teste de integração, teste de sistema e teste de aceitação. A aplicação de técnicas de teste leva o testador a produzir um conjunto de casos de teste (ou situações de teste). A aplicação combinada de outra técnica de particionamento de equivalência (ou uso de classes de equivalência) permite avaliar se a quantidade de casos de teste produzida é coerente. A partir das classes de equivalência identificadas, o testador construirá casos de teste que atuem nos limites superiores e inferiores destas classes, de forma que um número mínimo de casos de teste permita a maior cobertura de teste possível.
+Por exemplo, em um sistema que aceita um inteiro como entrada, testar todos os casos possíveis pode gerar pelo menos dezenas de milhares de casos de testes distintos. Entretanto,
+a partir da especificação do sistema, pode-se encontrar um subconjunto de inteiros que maximizem a qualidade do teste. Depende do propósito do sistema, mas casos possíveis incluem
+inteiros pares, inteiros ímpares, zero, inteiros positivos, inteiros negativos, o maior inteiro, o menor inteiro. Essa técnica é aplicável a todas as fases de teste – teste unitário,
+teste de integração, teste de sistema e teste de aceitação. A aplicação de técnicas de teste leva o testador a produzir um conjunto de casos de teste (ou situações de teste).
+A aplicação combinada de outra técnica de particionamento de equivalência (ou uso de classes de equivalência) permite avaliar se a quantidade de casos de teste produzida é coerente.
+A partir das classes de equivalência identificadas, o testador construirá casos de teste que atuem nos limites superiores e inferiores destas classes, de forma que um número mínimo de
+casos de teste permita a maior cobertura de teste possível.
 
 Uma abordagem no desenvolvimento do teste de caixa-preta é o teste baseado na
 especificação, de forma que as funcionalidades são testadas de acordo com os requisitos. Apesar de necessário, esse tipo de teste é insuficiente para identificar certos riscos num projeto de software. É complementar aos testes de caixa branca, com a finalidade de descobrir tipos/classes de erros. Procura descobrir erro em funções incorretas ou ausentes; interface; estruturas de dados; acesso a bancos de dados externos; desempenho; inicialização e término.
