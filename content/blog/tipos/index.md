@@ -1,5 +1,5 @@
 ---
-title: Diferença entre fases de teste, tipos de teste e formas de execução
+title: Tipos de testes
 date: "2024-02-11"
 description: "Diferença entre fases de teste, tipos de teste e formas de execução"
 ---
@@ -224,3 +224,6 @@ Espero que tenha ficado mais fácil de entender o que é uma fase de teste, tipo
 Para reduzir custo e tempo para conclusão de um projeto com alta qualidade, você não pode depender apenas do teste automatizado. Você precisa de uma combinação certa de testes manuais, testes automatizados e um equilíbrio na distribuição dos tipos de testes nas fases de teste para obter os melhores resultados.
 
 Tenha em mente que você não precisa realizar todos os testes mencionados para o seu projeto. Os testes que você deve executar dependem do tipo de software que você está construindo e outros fatores.
+
+
+###### _Escrito por Flavio Antunes_

@@ -12,11 +12,11 @@ module.exports = {
     title: `Blog`,
     author: {
       name: `Rodscaloppe`,
-      summary: `Com mais de sete (7) anos de experiência Em desenvolvimento, validação e análise de qualidade do produto. Esforço-me para construir bons produtos, com a dedicação necessária, 
+      summary: `Esforço-me para construir bons produtos, com a dedicação necessária,
       interessado em ter novas experiências, para soluções escaláveis, implementando processos adequados à organização e produção de resultados eficientes.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Blog`,
+    siteUrl: `https://rodolfoscaloppe.pages.dev/`,
     social: {
       twitter: ``,
     },
