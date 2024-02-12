@@ -5,7 +5,6 @@ description: "pode coletar e rastrear métricas"
 ---
 
 
-# O que é Amazon CloudWatch
 O Amazon CloudWatch é um serviço que você pode usar para monitorar seus recursos e aplicativos da AWS em tempo real. Com o Amazon CloudWatch, você pode coletar e rastrear métricas, criar alarmes que enviam notificações e fazem alterações nos recursos monitorados com base nas regras definidas por você.
 
 Por exemplo, você pode optar por monitorar a utilização da CPU para decidir quando adicionar ou remover instâncias do Amazon EC2 em uma camada de aplicativo.
