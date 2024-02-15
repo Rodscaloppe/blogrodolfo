@@ -1,12 +1,12 @@
 ---
-title: Teste de Contrato. O que é e como usar em JavaScript
+title: Teste de Contrato
 date: "2024-02-12"
 description: uma técnica de teste de software que garante que diferentes partes de um sistema
 ---
 
-## O que é
+## O que é e como usar em JavaScript
 
-Um teste de contrato é um tipo de teste que verifica se o **consumidor** (sua aplicação) e o **provedor** (uma API, por exemplo) estão em conformidade com um contrato pré-definido. Esse contrato define os endpoints da API, a estrutura das requisições e respostas, e outros aspectos da comunicação entre o consumidor e o provedor.
+O teste de contrato é um tipo de teste que verifica se o **consumidor** (sua aplicação) e o **provedor** (uma API, por exemplo) estão em conformidade com um contrato pré-definido. Esse contrato define os endpoints da API, a estrutura das requisições e respostas, e outros aspectos da comunicação entre o consumidor e o provedor.
 O teste de contrato é uma técnica de teste de software que garante que diferentes partes de um sistema, como um cliente e um servidor, estejam em conformidade com um contrato acordado. O contrato define as expectativas de comunicação entre as partes, incluindo:
 
 - Endpoints da API
@@ -108,7 +108,6 @@ Crie um novo arquivo JavaScript que conterá o script de teste do Playwright.
 **4. Importe as Bibliotecas:**
 
 Importe as bibliotecas necessárias no script de teste:
-
 
 ```js
 const playwright = require("playwright")

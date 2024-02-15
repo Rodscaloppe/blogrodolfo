@@ -18,7 +18,7 @@ module.exports = {
     description: `Blog`,
     siteUrl: `https://rodolfoscaloppe.pages.dev/`,
     social: {
-      twitter: ``,
+      github: `https://www.github.com/rodscaloppe`,
     },
   },
   plugins: [

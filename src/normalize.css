@@ -9,7 +9,7 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -29,7 +29,7 @@ body {
  */
 
 main {
-  display: block;
+  /* display: block; */
 }
 
 /**
@@ -114,8 +114,11 @@ samp {
  */
 
 small {
-  font-size: 80%;
-}
+  font-size: smaller;
+  font-size: 70%;
+    color: #a39ea1;
+  }
+
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
