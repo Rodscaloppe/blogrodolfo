@@ -12,8 +12,7 @@ module.exports = {
     title: `Blog`,
     author: {
       name: `Rodscaloppe`,
-      summary: `Esforço-me para construir bons produtos, com a dedicação necessária,
-      interessado em ter novas experiências, para soluções escaláveis, implementando processos adequados à organização e produção de resultados eficientes.`,
+      summary: `Esforço-me para construir bons produtos, com a dedicação necessária, interessado em ter novas experiências, para soluções escaláveis, implementando processos adequados à organização e produção de resultados eficientes.`,
     },
     description: `Blog`,
     siteUrl: `https://rodolfoscaloppe.pages.dev/`,

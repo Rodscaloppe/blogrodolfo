@@ -93,6 +93,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.sumary {
+  font-family: auto;
+  font-size: 1.4rem;
+} 
+
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
@@ -256,6 +261,10 @@ a:focus {
 
 
 /* Custom classes */
+.mail{
+  float: right;
+  margin-right: 0.4rem;
+}
 
 .github {
   float: right;
@@ -286,11 +295,12 @@ a:focus {
 }
 
 .post-list-item p {
+  color: #01051091;
   margin-bottom: var(--spacing-0);
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-4);
+  font-size: 1.8rem;
   color: var(--color-primary);
   margin-bottom: 0rem;
   margin-top: var(--spacing-0);

@@ -36,7 +36,7 @@ const Bio = () => {
         alt="Profile picture"
       />
     {author?.name && (
-        <p>
+        <div className="sumary"><p>
          <strong><p>{author.name}</p></strong> {author?.summary || null}
           <div>
           <a href="https://www.github.com/rodscaloppe" target="_blank" rel="noopener noreferrer">
@@ -46,9 +46,17 @@ const Bio = () => {
                 width="20"
                 height="20"
               />
+           </a>
+             <a href="mailto:rodolfoscaloppe@gmail.com" target="_blank" rel="noopener noreferrer">
+              <StaticImage
+                className="mail"
+                src="../images/email-icon.png"
+                width="20"
+                height="20"
+              />
           </a>
           </div>
-        </p>
+        </p></div>
       )}
 
     </div>
