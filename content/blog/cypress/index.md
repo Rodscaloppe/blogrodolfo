@@ -15,9 +15,9 @@ Naquela época, a equipe não tinha um testador e não conseguiu testar o códig
 
 Existem muitos métodos de teste, mas para efeitos deste artigo gostaríamos de nos limitar aos três principais.
 
-<img src="piramide.jpeg" alt="Pirâmide de testes clássica"/>
+<img src="piramide.jpeg" alt="Pirâmide de testes clássica"  style="height: 455px; width:500px;"/>
 
-Pirâmide de testes clássica
+>Pirâmide de testes clássica
 
 - **Os testes unitários** são fáceis de escrever e um projeto deve ter mais deles. Sua finalidade é testar um componente, módulo ou função isoladamente;
 
@@ -31,7 +31,8 @@ A plataforma Cypress.io é excelente para testar interfaces de aplicativos web. 
 
 <img src="Vantagensdaplataforma.jpeg" alt="Vantagensdaplataforma"/>
 
-Vantagens da plataforma
+
+##### Vantagens da plataforma
 
 1. Cypress opera na camada de rede e é capaz de gerenciar o tráfego de aplicativos;
 2. Facilmente integrado em um projeto;
@@ -45,7 +46,7 @@ O algoritmo reflete a sequência usual de comandos. Por exemplo, “Ouça, Cypre
 
 <img src="Exemplodescriptdeteste.jpeg" alt="Exemplo de script de teste"/>
 
-Exemplo de script de teste
+>Exemplo de script de teste
 
 Para demonstrar o Cypress.io em ação, lançamos um aplicativo web React.js simples com a estrutura já implementada. Para fazer isso, siga o [link](https://github.com/Rodscaloppe/cypress-demo) e siga as instruções.
 
@@ -64,7 +65,8 @@ npm run cypress
 A seguinte interface será exibida:
 
 <img src="exemploscript.jpeg" alt="demonstração script Cypress.io"/>
-Exemplos de script de teste Cypress.io
+
+>Exemplos de script de teste Cypress.io
 
 Você pode então selecionar e executar todos ou alguns dos testes – uma janela separada do navegador será aberta. Todos os exemplos mostram o sistema interagindo com elementos DOM: usando scripts, o Cypress é capaz de inserir informações automaticamente em campos de texto, limpar dados e clicar em botões. Essas operações podem ser usadas em seu projeto para testar a funcionalidade das páginas. Gravamos um vídeo demonstrando como isso acontece
 
@@ -73,7 +75,8 @@ As respostas do servidor aos dados enviados são rastreadas na guia à esquerda.
 Como resultado, as informações relevantes serão exibidas:
 
 <img src="pratica.jpeg" alt="demonstração Cypress.io"/>
-Resultado do teste de demonstração Cypress.io
+
+>Resultado do teste de demonstração Cypress.io
 
 Cypress funciona com qualquer site e está integrado em frameworks escritos em Javascript: React, Vue, Elm, Angular e outros. Esta é a sua principal vantagem, pela qual a apreciamos.
 
@@ -82,7 +85,9 @@ Cypress funciona com qualquer site e está integrado em frameworks escritos em J
 Além do Cypress, usamos o sistema de integração contínua baseado em nuvem [Circle.ci](https://circleci.com/) . Funciona com GitHub e executa várias verificações automaticamente. No nosso caso, quando um commit é enviado ao repositório, o projeto é reimplantado no ambiente de teste e executa todos os scripts Cypress. Dentro da própria plataforma está nossa linha de comando favorita, uma máquina virtual Linux e uma interface intuitiva. A plataforma é gratuita para uso não comercial.
 
 <img src="circleCI.jpeg" alt="Interface Circle.ci"/>
-Interface Circle.ci
+
+
+>Interface Circle.ci
 
 # Resumindo
 
