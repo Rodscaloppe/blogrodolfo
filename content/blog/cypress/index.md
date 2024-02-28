@@ -1,6 +1,6 @@
 ---
 title: Testando interfaces com Cypress.io e Circle.ci
-date: "2024-02-21"
+date: "2024-02-28"
 description: ferramenta valiosa que eleva a qualidade
 ---
 
