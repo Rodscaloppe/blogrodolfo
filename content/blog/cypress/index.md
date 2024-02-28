@@ -16,6 +16,7 @@ Naquela época, a equipe não tinha um testador e não conseguiu testar o códig
 Existem muitos métodos de teste, mas para efeitos deste artigo gostaríamos de nos limitar aos três principais.
 
 <img src="piramide.jpeg" alt="Pirâmide de testes clássica"  style="height: 455px; width:500px;"/>
+<p></p>
 
 >Pirâmide de testes clássica
 
@@ -28,27 +29,28 @@ Existem muitos métodos de teste, mas para efeitos deste artigo gostaríamos de 
 # Cypress.io
 
 A plataforma Cypress.io é excelente para testar interfaces de aplicativos web. Sua principal tarefa é verificar como a parte cliente interage com a parte servidor (testes ponta a ponta) e os componentes individuais da página entre si (testes de integração).
-
+<p></p>
 <img src="Vantagensdaplataforma.jpeg" alt="Vantagensdaplataforma"/>
-
+<p></p>
 
 ##### Vantagens da plataforma
 
-1. Cypress opera na camada de rede e é capaz de gerenciar o tráfego de aplicativos;
-2. Facilmente integrado em um projeto;
-3. Possui um navegador Google Chrome separado;
-4. Combina outros tipos de testes em uma plataforma;
-5. Capaz de acessar todos os objetos de página da web no DOM.
+   - Cypress opera na camada de rede e é capaz de gerenciar o tráfego de aplicativos;
+   -  Facilmente integrado em um projeto;
+   -  Possui um navegador Google Chrome separado;
+   -  Combina outros tipos de testes em uma plataforma;
+   -  Capaz de acessar todos os objetos de página da web no DOM.
 
 Mesmo que você nunca tenha escrito testes antes, você será capaz de descobrir isso graças à [documentação](https://docs.cypress.io/guides/overview/why-cypress.html) clara. Cypress funciona de acordo com um script predefinido.
 
 O algoritmo reflete a sequência usual de comandos. Por exemplo, “Ouça, Cypress. Acesse a página principal do aplicativo, serão exibidos os componentes da página “Autorização”. Você precisa inserir os dados do usuário em dois campos. Eles precisam ser enviados para o servidor, você deve ser redirecionado para a próxima página.” Esta é a aparência de um teste Cypress típico:
 
 <img src="Exemplodescriptdeteste.jpeg" alt="Exemplo de script de teste"/>
+<p></p>
 
 >Exemplo de script de teste
 
-Para demonstrar o Cypress.io em ação, lançamos um aplicativo web React.js simples com a estrutura já implementada. Para fazer isso, siga o [link](https://github.com/Rodscaloppe/cypress-demo) e siga as instruções.
+Para demonstrar o Cypress.io em ação, lançamos um aplicativo web React.js simples com a estrutura já implementada. Para fazer isso, siga o [link](https://github.com/Rodscaloppe/cypress-demo) e siga as instruções. 
 
 A interface do Cypress possui uma aparência simples, que exibe uma lista de testes que estão localizados no diretório em:
 
@@ -65,16 +67,17 @@ npm run cypress
 A seguinte interface será exibida:
 
 <img src="exemploscript.jpeg" alt="demonstração script Cypress.io"/>
+<p></p>
 
 >Exemplos de script de teste Cypress.io
-
-Você pode então selecionar e executar todos ou alguns dos testes – uma janela separada do navegador será aberta. Todos os exemplos mostram o sistema interagindo com elementos DOM: usando scripts, o Cypress é capaz de inserir informações automaticamente em campos de texto, limpar dados e clicar em botões. Essas operações podem ser usadas em seu projeto para testar a funcionalidade das páginas. Gravamos um vídeo demonstrando como isso acontece
-
+<p></p>
+Você pode então selecionar e executar todos ou alguns dos testes – uma janela separada do navegador será aberta. Todos os exemplos mostram o sistema interagindo com elementos DOM: usando scripts, o Cypress é capaz de inserir informações automaticamente em campos de texto, limpar dados e clicar em botões. Essas operações podem ser usadas em seu projeto para testar a funcionalidade das páginas.
+<p></p>
 As respostas do servidor aos dados enviados são rastreadas na guia à esquerda. Se algo deu errado, o Cypress irá reportar: quantos testes foram realizados, qual ação foi realizada e o que está contido nos logs. O Cypress também pode aguardar uma resposta a determinados eventos - por exemplo, enquanto as informações são atualizadas no lado do servidor após o envio de uma solicitação POST.
-
 Como resultado, as informações relevantes serão exibidas:
-
+<p></p>
 <img src="pratica.jpeg" alt="demonstração Cypress.io"/>
+<p></p>
 
 >Resultado do teste de demonstração Cypress.io
 
@@ -82,10 +85,10 @@ Cypress funciona com qualquer site e está integrado em frameworks escritos em J
 
 # CircleCI
 
-Além do Cypress, usamos o sistema de integração contínua baseado em nuvem [Circle.ci](https://circleci.com/) . Funciona com GitHub e executa várias verificações automaticamente. No nosso caso, quando um commit é enviado ao repositório, o projeto é reimplantado no ambiente de teste e executa todos os scripts Cypress. Dentro da própria plataforma está nossa linha de comando favorita, uma máquina virtual Linux e uma interface intuitiva. A plataforma é gratuita para uso não comercial.
-
+Além do Cypress, usamos o sistema de integração contínua baseado em nuvem [Circle.ci](https://circleci.com/). Funciona com GitHub e executa várias verificações automaticamente. No nosso caso, quando um commit é enviado ao repositório, o projeto é reimplantado no ambiente de teste e executa todos os scripts Cypress. Dentro da própria plataforma está nossa linha de comando favorita, uma máquina virtual Linux e uma interface intuitiva. A plataforma é gratuita para uso não comercial.
+<p></p>
 <img src="circleCI.jpeg" alt="Interface Circle.ci"/>
-
+<p></p>
 
 >Interface Circle.ci
 
