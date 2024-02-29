@@ -20,11 +20,11 @@ Existem muitos métodos de teste, mas para efeitos deste artigo gostaríamos de 
 
 >Pirâmide de testes clássica
 
-- **Os testes unitários** são fáceis de escrever e um projeto deve ter mais deles. Sua finalidade é testar um componente, módulo ou função isoladamente;
+   - **Os testes unitários** são fáceis de escrever e um projeto deve ter mais deles. Sua finalidade é testar um componente, módulo ou função isoladamente;
 
-- **Os testes** **de integração** exigem muito trabalho. Eles testam como dois ou mais componentes ou módulos interagem entre si;
+   - **Os testes** **de integração** exigem muito trabalho. Eles testam como dois ou mais componentes ou módulos interagem entre si;
 
-- **Os testes ponta a ponta (e2e)** verificam o sistema completa e extensivamente. Se encontrarem um erro, significa que um dos outros testes falhou ou está faltando.
+   - **Os testes ponta a ponta (e2e)** verificam o sistema completa e extensivamente. Se encontrarem um erro, significa que um dos outros testes falhou ou está faltando.
 
 # Cypress.io
 
