@@ -15,7 +15,7 @@ Mocks são objetos que simulam o comportamento de objetos reais de maneira contr
 **Exemplo em Node.js:**
 
 Utilizando a biblioteca `jest` para criar um Mock:
-
+=
 ```javascript
 // UserService.test.js
 const UserService = require('./UserService');
