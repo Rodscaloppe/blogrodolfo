@@ -98,6 +98,13 @@ html {
   font-size: 1.4rem;
 } 
 
+section {
+    display: block;
+    unicode-bidi: isolate;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
