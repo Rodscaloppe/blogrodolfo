@@ -27,8 +27,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif, Times, serif;
-  --fontFamily-serif: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif, Times, serif;
+  --fontFamily-sans: Ubuntu;
+  --fontFamily-serif: Ubuntu;
   /* --fontFamily-sans:-apple-system,
     BlinkMacSystemFont,
     Segoe UI,
@@ -99,10 +99,10 @@ html {
 } 
 
 section {
-    display: block;
+    /* display: block; */
     unicode-bidi: isolate;
     line-height: 1.8;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 body {
@@ -304,6 +304,8 @@ a:focus {
 .post-list-item p {
   color: #01051091;
   margin-bottom: var(--spacing-0);
+  /* margin-top: var(--spacing-7); */
+
 }
 
 .post-list-item h2 {
@@ -336,7 +338,7 @@ a:focus {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  min-width: 70px;
   border-radius: 100%;
 }
 
